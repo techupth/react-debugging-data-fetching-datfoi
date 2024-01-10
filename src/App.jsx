@@ -27,7 +27,7 @@ function App() {
             <h2>{product.title}</h2>
             <p>Description: {product.description}</p>
             <p>Price: ${product.price}</p>
-            <img src={product.images[0]} alt={product.title} />
+            <img src={product.thumbnail} alt={product.title} />
           </div>
         ))}
       </div>
